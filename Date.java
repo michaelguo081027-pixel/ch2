@@ -1,9 +1,10 @@
 public class Date{
 	public static void main (String[] args){
-		//variables
+		//variables: the day is 2026/09/14
 		String day = "Monday", month = "September";
 		int date = 14, year = 2026;
 		//American format
+		System.out.print("American format: ");
 		System.out.print(day);
 		System.out.print(", ");
 		System.out.print(month);
@@ -12,6 +13,7 @@ public class Date{
 		System.out.print(", ");
 		System.out.println(year);
 		//European format
+		System.out.print("European format: ");
 		System.out.print(day);
 		System.out.print(" ");
 		System.out.print(date);
